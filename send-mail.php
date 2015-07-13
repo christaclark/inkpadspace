@@ -1,6 +1,9 @@
 <?php
+error_reporting(-1);
+ini_set('display_errors', 'On');
 
-$to = 'info@inkpadspace.com'; // Change your email address
+
+$to = 'stefair@gmail.com'; // Change your email address
 
 
 $name = $_POST['name'];
@@ -42,6 +45,6 @@ $header = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
  // mail( $to , $_POST['subject'], $_POST['message'], $headers );
  mail($to, $subject, $body, $header);
   //      ^
-  //  If it's not working, replace $to swith your email 
+  //  If it's not working, replace $to with your email 
 }
 ?>

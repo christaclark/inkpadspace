@@ -450,11 +450,17 @@ button {
     border: none;
 }
 
-    .btn-black:hover {
+.btn-black:hover {
         color: #fff;
-        /*background: #e6ae49;*/
-        background: rgba(50,50,50,0.85);
+       background: #FCD081;
+     
     }
+
+.btn:hover {
+        color: #fff;
+       background: #FCD081;
+     
+    }    
 
 .btn-color-a, .btn-color-b {
     color: #fff;
